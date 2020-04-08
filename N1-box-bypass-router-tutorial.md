@@ -101,7 +101,7 @@
   登录后在左侧菜单栏里面找到`网络-接口`, 对LAN进行编辑  
   ![](https://pic.downk.cc/item/5e8d6153504f4bcb04f19f11.png)  
   将红框内的IP改为`192.168.0.254` *根据你的实际情况更改*
-  ![](https://pic.downk.cc/item/5e8d61c8504f4bcb04f20f45.png)
+  ![](https://pic.downk.cc/item/5e8d8e87504f4bcb041c2f5e.png)  
 
 
 ## 增加WAN接口以及更改LAN接口配置
@@ -126,7 +126,7 @@
   >![](https://pic.downk.cc/item/5e8d7a95504f4bcb04098eae.png)  
   记住下面这张图里的`IPv4 Address`  
   >![](https://pic.downk.cc/item/5e8d7ae1504f4bcb0409da2a.png)  
-  >![](https://pic.downk.cc/item/5e8d7a95504f4bcb04098eb2.png)  
+  >![](https://pic.downk.cc/item/5e8d8e0e504f4bcb041ba521.png)  
   这里`IP Address`里面填刚刚记下的`IPv4 Address`  
   >![](https://pic.downk.cc/item/5e8d7a95504f4bcb04098eb5.png)  
   最后`OK`即可生效
