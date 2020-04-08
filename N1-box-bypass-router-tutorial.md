@@ -5,6 +5,7 @@
 [5]: <https://www.balena.io/etcher/>
 [6]: <https://drive.google.com/open?id=1qrAh0RXZoCHy8OL3WG5FoIrVYsEBlWMY>
 [7]: <https://drive.google.com/open?id=1fgb8f7epe-s4kJzKyQCa2Oes4vYkB1el>
+
 # N1盒子旁路由教程面向小白啰嗦版
 >[参考](#参考)  
 [主要目的](#主要目的)  
@@ -112,7 +113,7 @@
    >![](https://pic.downk.cc/item/5e8d70fc504f4bcb04009fe1.png)
 2. 修改LAN接口
    >如图进行设置即可
-   >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af03.png)
+   >![](https://pic.downk.cc/item/5e8d61c8504f4bcb04f20f45.png)
    >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af08.png)
    >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af13.png)
    >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af18.png)
@@ -122,7 +123,7 @@
 - 电脑
   >首先连接到主路由的网络, 打开`Control Panel\Network and Internet\Network Connections`, 如图进行操作  
   >![](https://pic.downk.cc/item/5e8d7a6f504f4bcb04096bb1.png)  
-  >![](https://pic.downk.cc/item/5e8d7a95504f4bcb04098eae.png)  
+  >![](https://pic.downk.cc/item/5e8d7a95504f4bcb04098eb2.png) 
   记住下面这张图里的`IPv4 Address`  
   >![](https://pic.downk.cc/item/5e8d7ae1504f4bcb0409da2a.png)  
   >![](https://pic.downk.cc/item/5e8d7a95504f4bcb04098eb2.png)  
