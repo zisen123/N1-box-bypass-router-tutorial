@@ -48,7 +48,7 @@
 下面是使用降级工具降级的操作步骤: *本步骤图片截图自王晓峰的YouTube视频*
 1. 用HDMI视频数据线将N1盒子和显示器连接起来, 并使用鼠标和键盘将N1盒子连接到主路由的`WiFi`, 同时记下上面显示的IP地址.
    ![N1盒子默认显示界面](https://pic.downk.cc/item/5e8d4637504f4bcb04dc0baf.png)
-2. 点击四下固件版本, 屏幕上提示打开ADB  
+2. 点击四下固件版本, 屏幕上提示打开adb  
    ![打开ADB](https://pic.downk.cc/item/5e8d46d1504f4bcb04dc8c59.png)
 3. 打开电脑,运行降级工具包里的`run.bat`, 输入数字<kbd>2</kbd>并<kbd>Enter</kbd>,随后输入刚刚记下的IP地址,最后按任意键开始降级 *注意此时电脑要保持联网状态,因为降级工具需要联网获取文件* .
 4. 降级成功后运行激活U盘启动工具包里的`N1盒子激活U盘启动.bat`,并输入刚刚记下的IP地址即可激活U盘启动.
@@ -113,7 +113,7 @@
    >![](https://pic.downk.cc/item/5e8d70fc504f4bcb04009fe1.png)
 2. 修改LAN接口
    >如图进行设置即可
-   >![](https://pic.downk.cc/item/5e8d61c8504f4bcb04f20f45.png)
+   >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af08.png)
    >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af08.png)
    >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af13.png)
    >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af18.png)
