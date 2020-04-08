@@ -123,7 +123,7 @@
 - 电脑
   >首先连接到主路由的网络, 打开`Control Panel\Network and Internet\Network Connections`, 如图进行操作  
   >![](https://pic.downk.cc/item/5e8d7a6f504f4bcb04096bb1.png)  
-  >![](https://pic.downk.cc/item/5e8d7a95504f4bcb04098eb2.png) 
+  >![](https://pic.downk.cc/item/5e8d7a95504f4bcb04098eb2.png)  
   记住下面这张图里的`IPv4 Address`  
   >![](https://pic.downk.cc/item/5e8d7ae1504f4bcb0409da2a.png)  
   >![](https://pic.downk.cc/item/5e8d7a95504f4bcb04098eb2.png)  
