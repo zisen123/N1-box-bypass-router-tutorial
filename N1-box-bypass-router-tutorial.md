@@ -137,5 +137,6 @@
 
 ## 总结
 本文从拿到N1开始进行降级, 激活U盘启动, 刷入emmc, 到更改N1盒子网络设置, 成功地实现了把设备流量转发给N1盒子处理, 再配合固件里面自带的插件即可实现透明代理上网, 如果出现了意料之外的问题, 欢迎提出issue讨论.
+
 ## 转载说明
 此文为Zisen原创, 虽有许多参考之处但都获得了原文作者的许可, 如需转载请注明出处和作者, 本文地址为https://github.com/zisen123/N1-box-bypass-router-tutorial/blob/master/N1-box-bypass-router-tutorial.md
