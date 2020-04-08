@@ -92,7 +92,7 @@
 - **将N1盒子通过网线或者WiFi直连电脑进行更改**
   >N1盒子从U盘启动之后一般会自动开启一个名为`OpenWrt`的开放式WiFi, 电脑断开其他网络连接之后连接到这个WiFi, 没有WiFi的电脑可以用网线直连N1盒子和电脑.  
   连接上之后按下<kbd>Win</kbd>+<kbd>x</kbd>, 选择`Windows PowerShell`, 输入`ssh root@192.168.1.1`后<kbd>Enter</kbd>, 如图
-  ![](https://pic.downk.cc/item/5e8d5db2504f4bcb04ee79e5.png)
+  ![](https://pic.downk.cc/item/5e8d5db2504f4bcb04ee79e5.png)  
   接下来的步骤与上一个方法相同, 不再赘述.
 
   >如果电脑没有自带ssh的话可以用浏览器访问`192.168.1.1`, 出现如下登陆界面, 输入默认密码`password`  
