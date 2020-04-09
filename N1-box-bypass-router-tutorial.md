@@ -62,7 +62,9 @@
 ## 将N1固件烧录至U盘并使用U盘启动openwrt
 这里推荐使用[balenaEtcher][5]来进行烧录: 将U盘插入电脑, 选择下载好的固件和U盘, 最后`Flash!`就完事了.  
 ![](https://pic.downk.cc/item/5e8d4c4e504f4bcb04e0d59b.png)  
-烧录完成之后将U盘插入N1盒子, 接上电源即可在U盘启动openwrt系统
+烧录完成之后将U盘插入N1盒子, 接上电源即可在U盘启动openwrt系统.  
+另外这个固件有一些小问题, 需要在防火墙加入一行代码, 否则会时不时断网.  
+
 
 ## 将固件刷入N1盒子的emmc并更改N1盒子的内网IP
 1. **将固件刷入N1盒子的emmc**  
@@ -159,7 +161,7 @@
 >其他品牌的路由器设置应该大同小异.
 2. **N1盒子的配置**
 >进入N1盒子的配置页面, 找到`网络-接口-LAN-编辑`, 将`网关`和`DNS`修改为主路由的IP即`192.168.0.1`, 同时将`DHCP服务`禁用.
->![](https://pic.downk.cc/item/5e8f34da504f4bcb049020f8.png)  
+>![](https://pic.downk.cc/item/5e8f3ed6504f4bcb049b0ac3.png)  
 >![](https://pic.downk.cc/item/5e8f34ec504f4bcb0490308e.png)  
 >最后记得`保存并应用`
 
