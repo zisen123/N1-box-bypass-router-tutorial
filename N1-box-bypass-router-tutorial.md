@@ -167,7 +167,8 @@
 >![](https://pic.downk.cc/item/5e8f103d504f4bcb046a6e11.png)  
 >其他品牌的路由器设置应该大同小异.
 2. **N1盒子的配置**
->进入N1盒子的配置页面, 找到`网络-接口-LAN-编辑`, 将`DHCP服务`禁用.
+>进入N1盒子的配置页面, 找到`网络-接口-LAN-编辑`, 将`网关`和`DNS`改为主路由IP地址`192.168.0.1`, 将`DHCP服务`禁用.  
+>![](https://pic.downk.cc/item/5e8f3ed6504f4bcb049b0ac3.png)
 >![](https://pic.downk.cc/item/5e8f34ec504f4bcb0490308e.png)  
 >最后记得`保存并应用`
 
