@@ -3,13 +3,16 @@
 [3]: <https://www.right.com.cn/forum/?285101>
 [4]: <https://www.right.com.cn/forum/>
 [5]: <https://www.balena.io/etcher/>
-[6]: <https://drive.google.com/open?id=1qrAh0RXZoCHy8OL3WG5FoIrVYsEBlWMY>
+[6]: <https://drive.google.com/open?id=1YdETyX8O2IUPXdNLHvWHxh7etGPV7z20>
 [7]: <https://drive.google.com/open?id=1fgb8f7epe-s4kJzKyQCa2Oes4vYkB1el>
 [8]: <https://www.ktsee.eu.org/2020/01/n1.html>
+[9]: <https://pan.baidu.com/s/1K0bNItsY1-Br4o1EsRokkg#list/path=%2F&parentPath=%2Fsharelink3676369119-41745957571602>
 
 `本文最后更新于2020年4月, 请注意时效性`
 
 # N1盒子旁路由教程面向小白啰嗦版
+
+## 索引
 >[参考](#参考)  
 [主要目的](#主要目的)  
 [一些需要用到的东西](#一些需要用到的东西)  
@@ -19,6 +22,7 @@
 [增加WAN接口以及更改LAN接口配置](#增加WAN接口以及更改LAN接口配置)  
 [非全局设置-手动配置过的设备能代理](#非全局设置-手动配置过的设备能代理)  
 [全局设置-所有设备连上就能代理](#全局设置-所有设备连上就能代理)  
+[固件的升级](#固件的升级)  
 [总结](#总结)  
 [转载说明](#转载说明)
 
@@ -48,6 +52,7 @@
 10. [Flippy制作的N1盒子openwrt固件][6]
 11. [N1盒子降级工具以及激活U盘启动工具][7]
 12. U盘烧录工具 *推荐使用[balenaEtcher][5]*
+13. [Flippy的固件的网盘][9] `lidf`
 
 ## 对N1盒子进行降级以及激活U盘启动
 大部分拿到手的N1盒子除非商家特别说明一般都只装了原版系统, 但是要激活从U盘启动的话就必须要把N1盒子降级到对应的版本.  
@@ -162,10 +167,21 @@
 >![](https://pic.downk.cc/item/5e8f103d504f4bcb046a6e11.png)  
 >其他品牌的路由器设置应该大同小异.
 2. **N1盒子的配置**
->进入N1盒子的配置页面, 找到`网络-接口-LAN-编辑`, 将`网关`和`DNS`修改为主路由的IP即`192.168.0.1`, 同时将`DHCP服务`禁用.
->![](https://pic.downk.cc/item/5e8f3ed6504f4bcb049b0ac3.png)  
+>进入N1盒子的配置页面, 找到`网络-接口-LAN-编辑`, 将`DHCP服务`禁用.
 >![](https://pic.downk.cc/item/5e8f34ec504f4bcb0490308e.png)  
 >最后记得`保存并应用`
+
+## 固件的升级
+再次感谢Flippy大神, 他在不断地为我们提供更新的openwrt固件, 例如最新的固件里面集成了trojan订阅之类的实用功能.  
+- [固件更新地址][9]
+- 固件更新方法
+  >按照之前的步骤将新固件刷入U盘, 随后启动N1盒子, 通过ssh连接到N1盒子, 如果提示验证错误就把错误提示里的ssh文件删除后重试.
+
+  >ssh连接上之后分行输入如下指令即可不改变原来的配置升级固件
+  >```
+  >cd /root
+  >./update-to -emmc.sh
+  >```
 
 ## 总结
 本文从拿到N1开始进行降级, 激活U盘启动, 刷入emmc, 到更改N1盒子网络设置, 成功地实现了把设备流量转发给N1盒子处理, 再配合固件里面自带的插件即可实现透明代理上网, 如果出现了意料之外的问题, 欢迎提出issue讨论.
