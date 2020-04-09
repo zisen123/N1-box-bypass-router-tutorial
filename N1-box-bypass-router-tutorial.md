@@ -120,7 +120,7 @@
    >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af18.png)
    >最后记得点击`保存并应用`
 
-## 一号方案, 非全局设置, 需要手动配置每一台设备
+## 非全局设置,需要手动配置每一台设备
 - 电脑
   >首先连接到主路由的网络, 打开`Control Panel\Network and Internet\Network Connections`, 如图进行操作  
   >![](https://pic.downk.cc/item/5e8d7a6f504f4bcb04096bb1.png)  
