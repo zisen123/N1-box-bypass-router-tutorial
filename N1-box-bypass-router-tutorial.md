@@ -117,13 +117,13 @@
    >首先来到`网络-接口`,点击`添加新接口`
    >![](https://pic.downk.cc/item/5e8d70fc504f4bcb04009fda.png)
    >如图进行设置
-   >![](https://pic.downk.cc/item/5e8d70fc504f4bcb04009fe1.png)
+   >![](https://pic.downk.cc/item/5e8d70fc504f4bcb04009fe1.png)  
+   >最后点击`提交`
 2. 修改LAN接口
    >如图进行设置即可
-   >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af08.png)
-   >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af08.png)
-   >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af13.png)
-   >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af18.png)
+   >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af08.png)  
+   >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af13.png)  
+   >![](https://pic.downk.cc/item/5e8d730f504f4bcb0402af18.png)  
    >最后记得点击`保存并应用`
 
 ## 非全局设置-手动配置过的设备能代理
@@ -146,11 +146,11 @@
   >![](https://pic.downk.cc/item/5e8d7d1a504f4bcb040bcab4.jpg)
 
 ## 全局设置-所有设备连上就能代理
-此方案优点是可以让一些不能配置网关的设备通过N1代理, 例如Xbox和我的Sony手机, 就不能手动改网关, 就只能用这种方法.  
+此方案优点是可以让一些不能配置网关的设备通过N1代理, 例如Xbox和我的Sony手机不能手动改网关, 就只能用这种方法.  
 缺点是需要更改主路由设定, 如果多人共用主路由不建议这样设置除非所有人都有代理需求.
 方法如下:
 1. **主路由的配置**
->打开主路由的设置界面, 进入`DHCP`设置, 将`网关`设置为N1的IP也就是`192.168.0.254`, 保存后再去电脑上查询IP设定时会发现网关已经是N1的IP了.  
+>打开主路由的设置界面, 进入`DHCP`设置, 将`网关`设置为N1的IP也就是`192.168.0.254`, 保存后再去电脑上查询IP设定时会发现网关已经是N1的IP了. *若未发生变化建议断开网络后重新连接以刷新网关设定* 
 >![](https://pic.downk.cc/item/5e8f1102504f4bcb046b50da.png)  
 >![](https://pic.downk.cc/item/5e8f0efa504f4bcb0468f702.png)  
 >**这个地方提醒一下各位小白不要设置成WAN接口的网关了,否则可能上不了网了, 比如我这个路由器就会给我提示设置错误.**  
@@ -158,15 +158,16 @@
 >![](https://pic.downk.cc/item/5e8f103d504f4bcb046a6e11.png)  
 >其他品牌的路由器设置应该大同小异.
 2. **N1盒子的配置**
->进入N1盒子的配置页面, 找到`网络-接口-LAN-编辑`, 将`网关`和`DNS`修改为主路由的IP`192.168.0.1`, 同时将`DHCP服务`禁用.
+>进入N1盒子的配置页面, 找到`网络-接口-LAN-编辑`, 将`网关`和`DNS`修改为主路由的IP即`192.168.0.1`, 同时将`DHCP服务`禁用.
 >![](https://pic.downk.cc/item/5e8f34da504f4bcb049020f8.png)  
 >![](https://pic.downk.cc/item/5e8f34ec504f4bcb0490308e.png)  
+>最后记得`保存并应用`
 
 ## 总结
 本文从拿到N1开始进行降级, 激活U盘启动, 刷入emmc, 到更改N1盒子网络设置, 成功地实现了把设备流量转发给N1盒子处理, 再配合固件里面自带的插件即可实现透明代理上网, 如果出现了意料之外的问题, 欢迎提出issue讨论.
 >我为什么要写这篇教程?  
 >一是呆在家里闲得无聊就把N1盒子重新掏出来折腾, 顺便训练一下我新学习的markdown语法.  
->二是网上的教程要不然就是过于简单导致像我这样的小白疯狂踩坑, 要不然就是有错误没有及时更新, 希望我这篇啰里啰唆的纯小白教程文能帮助到大家.
+>二是网上的教程要不然就是过于简单导致像我这样的小白疯狂踩坑, 要不然就是很久之前写的没有及时更新, 希望我这篇啰里啰唆的纯小白教程文能帮助到大家.
 
 ## 转载说明
 此文为Zisen原创, 虽有许多参考之处但都获得了原文作者的许可, 如需转载请注明出处和作者, 本文地址为https://github.com/zisen123/N1-box-bypass-router-tutorial/blob/master/N1-box-bypass-router-tutorial.md
