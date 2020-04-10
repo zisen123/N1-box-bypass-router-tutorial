@@ -6,7 +6,8 @@
 [6]: <https://drive.google.com/open?id=1YdETyX8O2IUPXdNLHvWHxh7etGPV7z20>
 [7]: <https://drive.google.com/open?id=1fgb8f7epe-s4kJzKyQCa2Oes4vYkB1el>
 [8]: <https://www.ktsee.eu.org/2020/01/n1.html>
-[9]: <https://pan.baidu.com/s/1K0bNItsY1-Br4o1EsRokkg>
+[9]: <https://pan.baidu.com/s/1K0bNItsY1-Br4o1EsRokkg>  
+[10]: <https://www.right.com.cn/forum/thread-628932-1-1.html>
 
 `本文最后更新于2020年4月, 请注意时效性`
 
@@ -25,6 +26,7 @@
 [全局设置-所有设备连上就能代理](#全局设置-所有设备连上就能代理)  
 [固件的升级](#固件的升级)  
 [N1的WiFi?](#N1的WiFi?)  
+[已知问题](#已知问题)  
 [总结](#总结)  
 [转载说明](#转载说明)
 
@@ -194,5 +196,7 @@
 >一是呆在家里闲得无聊就把N1盒子重新掏出来折腾, 顺便训练一下我新学习的markdown语法.  
 >二是网上的教程要不然就是过于简单导致像我这样的小白疯狂踩坑, 要不然就是很久之前写的没有及时更新, 希望我这篇啰里啰唆的纯小白教程文能帮助到大家.
 
+## 已知问题
+- 我的N1盒子在设置为全局代理之后时不时地会断网, 过一会又自动恢复正常, 上网查询发现也有其他人有相同的问题, 例如[恩山无线论坛][10]就有帖子讨论断网问题, 不过并没有大规模地讨论, 本人怀疑跟N1盒子的体质有关, 很多N1盒子之前是用来挖矿的, 长时间运行难免会对硬件有所损耗, 所以在大流量代理的时候力不从心. 如果各位希望自己的N1盒子能够长久稳定运行的话建议买新的.
 ## 转载说明
 此文为Zisen原创, 虽有许多参考之处但都获得了原文作者的许可, 如需转载请注明出处和作者, 本文地址为https://github.com/zisen123/N1-box-bypass-router-tutorial/blob/master/N1-box-bypass-router-tutorial.md
