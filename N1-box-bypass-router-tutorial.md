@@ -5,7 +5,7 @@
 [5]: <https://www.balena.io/etcher/>
 [6]: <https://drive.google.com/open?id=1YdETyX8O2IUPXdNLHvWHxh7etGPV7z20>
 [7]: <https://drive.google.com/open?id=1fgb8f7epe-s4kJzKyQCa2Oes4vYkB1el>
-[8]: <https://www.ktsee.eu.org/2020/01/n1.html>
+[8]: <https://instar.me/archives/e806f8ac.html>
 [9]: <https://pan.baidu.com/s/1K0bNItsY1-Br4o1EsRokkg>  
 [10]: <https://www.right.com.cn/forum/thread-628932-1-1.html>
 
@@ -35,7 +35,7 @@
 >[王晓峰部落阁上的单臂路由文字教程][2]  
 >[恩山论坛巨佬Flippy][3]  
 >[恩山无线论坛][4]  
->[ktsee.eu.org][8]
+>[instar.me][8]
 
 ## 主要目的
 在拥有一个**主路由**的情况下将**N1盒子**作为**旁路由**, 再在手机电脑上设置网关让流量经过N1盒子转发,达到透明代理的效果.   
