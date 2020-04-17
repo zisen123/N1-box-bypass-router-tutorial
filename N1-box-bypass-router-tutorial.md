@@ -203,5 +203,4 @@
 此文为Zisen原创, 虽有许多参考之处但都获得了原文作者的许可, 如需转载请注明出处和作者, 本文地址为https://github.com/zisen123/N1-box-bypass-router-tutorial/blob/master/N1-box-bypass-router-tutorial.md
 
 ## 广告
-优质机场:https://pud.life/aff/mFTm  
-优惠码:50off(4/17/2020)
+优质机场:https://pud.life/aff/mFTm
